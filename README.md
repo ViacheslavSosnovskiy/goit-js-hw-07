@@ -1,2 +1,1 @@
-# goit-js-hw-07
-DOM
+# Домашние работы курса JavaScript
