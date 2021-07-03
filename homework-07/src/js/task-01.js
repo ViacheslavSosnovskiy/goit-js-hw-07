@@ -1,7 +1,11 @@
 const list = document.querySelector('#categories');
+console.log(`В списке ${list.children.length} категории.`);
 
-console.log('Количество элементов:', list.children);
 const item = document.querySelectorAll('.item h2');
-console.log(item);
 
-// console.log(item);
+item.forEach(element => {
+  console.log(`Категория: ${element.textContent}`);
+  console.log(
+    `Количество элементов: ${element.nextElementSibling.children.length}`
+  );
+});
