@@ -1,4 +1,3 @@
-// const container = document.querySelector('#counter');
 const counterValue = document.querySelector('#value');
 let value = 0;
 const decrementBtn = document.querySelector(
